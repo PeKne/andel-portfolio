@@ -1,0 +1,94 @@
+.top_header_wrapper {
+    margin-top: 5em;
+    text-align: center;
+}
+
+.top_header {
+    color: white !important;
+    font-size: 4.5em;
+}
+
+.top_text_wrapper {
+    text-align: center;
+}
+
+.top_text {
+    color: white !important;
+}
+
+.logo-img {
+    height: 80px;
+    margin-top: -25px;
+}
+
+.personal-img {
+    border-radius: 400px;
+    max-width: 300px;
+}
+
+.top-img {
+    max-height: 700px;
+    margin-top: -2em;
+    margin-bottom: 6em;
+}
+
+.about-me-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    width: 100%;
+    margin-top: -2em;
+}
+
+.about-me-text {
+    width: 100%;
+    text-align: justify;
+    margin-left: 4em;
+}
+
+.about-me-text h4 {
+    font-size: 2.5em !important;
+    font-weight: 600 !important;
+}
+
+.about-me-text p {
+    font-size: 1.5em !important;
+}
+
+#menu li a:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+#contact_wrapper {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.contact,
+.contact * {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4em !important;
+    color: black !important;
+    align-items: center;
+}
+
+.contact h1 {
+    font-size: 1.8em !important;
+}
+
+.contact h2 {
+    font-size: 1.4em !important;
+}
+
+.circle {
+    border: solid 3px;
+    border-radius: 100%;
+    height: 3.5em;
+    width: 3.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
