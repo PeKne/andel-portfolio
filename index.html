@@ -5,27 +5,15 @@
     <title>Tesařství Anděl 🔨🌲</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://livewp.site/html/timber/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="https://livewp.site/html/timber/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="https://livewp.site/html/timber/css/slicknav.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://livewp.site/html/timber/css/prettyPhoto.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://livewp.site/html/timber/css/style.css">
-    <script type="text/javascript" src="https://livewp.site/html/timber/js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="https://livewp.site/html/timber/js/jquery.mobile.customized.min.js"></script>
-    <script type="text/javascript" src="https://livewp.site/html/timber/js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="https://livewp.site/html/timber/js/camera.min.js"></script>
-    <script type="text/javascript" src="https://livewp.site/html/timber/js/myscript.js"></script>
-    <script src="https://livewp.site/html/timber/js/sorting.js" type="text/javascript"></script>
-    <script src="https://livewp.site/html/timber/js/jquery.isotope.js" type="text/javascript"></script>
-    <script id="tinyhippos-injected">
-        if (window.top.ripple) {
-            window.top.ripple("bootstrap").inject(window, document);
-        }
-    </script>
-    <!--<![endif]-->
+    <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+    <script src="https://use.fontawesome.com/1de9490ae4.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="resources/css/slicknav.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/timber/style.css">
+
+    <script type="text/javascript" src="resources/js/jquery-1.8.3.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
-    <!--script type="text/javascript" src="js/jquery.nav.js"></script-->
+    
 </head>
 
 <body>
@@ -51,7 +39,6 @@
                                     <li><a href="index.html#about">O mě</a></li>
                                     <li><a href="index.html#project">Stavby</a></li>
                                     <li class="last"><a href="index.html#contact">Kontakt</a></li>
-                                    <!--li><a href="#features">Features</a></li-->
                                 </ul>
                             </div>
                         </div>
@@ -82,18 +69,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 project">
-                <h3 id="counter">0</h3>
-                <h4>Awesome Projects</h4>
+                <h3 id="counter">5</h3>
+                <h4>Let praxe</h4>
                 <p>Dolor sit amet, consectetur adipiscing elit quisque tempus eget diam et lorem a laoreet phasellus ut nisi id leo molestie. </p>
             </div>
             <div class="col-md-4 project">
-                <h3 id="counter1">0</h3>
-                <h4>Happy Customers</h4>
+                <h3 id="counter1">přes 40</h3>
+                <h4>dokončených projektů</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus eget diam et. laoreet phasellus ut nisi id leo. </p>
             </div>
             <div class="col-md-4 project">
-                <h3 id="counter2" style="margin-left: 20px;">0</h3>
-                <h4 style="margin-left: 20px;">Professional Awards</h4>
+                <h3 id="counter2" style="margin-left: 20px;">Nespočet</h3>
+                <h4 style="margin-left: 20px;">Spokojených zákazníků</h4>
                 <p>Consectetur adipiscing elit quisque tempus eget diam et laoreet phasellus ut nisi id leo molestie adipiscing vitae a vel. </p>
             </div>
         </div>
@@ -101,8 +88,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 cBusiness">
-                <h3>The Best Way to Create Business Site &ndash; Attractive One Page</h3>
-                <h4>Discover elegant solution for your online business fast, reliable, affordable.</h4>
+                <h3>Jsem fakt slučný řezivo! Pokud zavoláte do 15 minut, získáte druhou pilu zdarma!</h3>
+                <h4>*nic co z toho co je napsáno na tomhle webu není pravda</h4>
             </div>
         </div>
     </div>
@@ -110,13 +97,13 @@
 
     <!--about start-->
 
-    <div id="about">
-        <div class="line2">
+    <div>
+        <div class="line line2">
             <div class="container">
                 <div class="row Ama">
                     <div class="col-md-12">
-                        <span id="projectss"></span>
-                        <h3>Kdo jsem?</h3>
+                        <span></span>
+                        <h3 id="about">Kdo jsem?</h3>
                         <p>Pár vět o mě.</p>
                     </div>
                 </div>
@@ -203,13 +190,12 @@
         </div>
     </div>
     <!--project start-->
-    <div id="project">
-        <div class="line3">
+    <div>
+        <div class="line line3">
             <div class="container">
-                <div id="project1"></div>
                 <div class="row Ama">
                     <div class="col-md-12">
-                        <span id="projectss"></span>
+                        <span id="project"></span>
                         <h3>Realizované projekty</h3>
                         <p>Střechy, terasy, pergoly, dveře a další projekty</p>
                     </div>
@@ -237,195 +223,104 @@
 
     <!--contact start-->
 
-    <div id="contact">
-        <div class="line5">
+    <div>
+        <div class="line line5">
             <div class="container">
                 <div class="row Ama">
                     <div class="col-md-12">
+                        <span id="contact">
                         <h3>Kontakty</h3>
                         <p>Máte zájem o moje služby? Ozvěte se mi!</p>
+                    </span>
                     </div>
                 </div>
             </div>
         </div>
 
         <div id="contact_wrapper" class=" row Ama ">
-            <div class="col-md-2 contact ">
+            <div class="col-md-1 contact ">
             </div>
-            <div class="col-md-4 contact ">
+            
+            <div class="col-md-5 contact ">
+                <a href="tel:+05890000111">
                 <h1>Telefon</h1>
                 <div class="circle ">
                     <i class="fa fa-phone "></i>
                 </div>
                 <h2>798 354 123</h2>
+                </a>
             </div>
-            <div class="col-md-4 contact ">
+            <div class="col-md-5 contact ">
+                <a href = "mailto: abc@example.com">
                 <h1>E-mail</h1>
                 <div class="circle ">
                     <i class="fa fa-envelope "></i>
                 </div>
                 <h2>krotitel.samic@gmail.com</h2>
+            </a>
             </div>
-            <div class="col-md-2 contact ">
+            
+            <div class="col-md-1 contact ">
             </div>
         </div>
 
-        <div class="lineBlack ">
-            <div class="container ">
-                <div class="row downLine ">
-                    <div class="col-md-6 text-left copy ">
-                        <p>&copy; Web na zakázku vytvořil <a href="https://www.linkedin.com/in/petr-knetl-885097165 ">Petr Knetl</a></p>
-                    </div>
-                    <div class="col-md-6 text-right dm ">
-                        <ul id="downMenu ">
-                            <li class="active "><a href="index.html#home ">Domů</a></li>
-                            <li><a href="index.html#about ">O mě</a></li>
-                            <li><a href="index.html#project1 ">Stavby</a></li>
-                            <li class="last "><a href="index.html#contact ">Kontakt</a></li>
-                            <!--li><a href="#features ">Features</a></li-->
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <div class="footer">
+            <div class="row">
+
+                    <p>&copy; Web na zakázku vytvořil <a href="https://www.linkedin.com/in/petr-knetl-885097165 ">Petr Knetl</a></p>
+        
+            </div>     
         </div>
     </div>
 
 
-    <script data-cfasync="false " src="https://livewp.site/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js "></script>
-    <script src="https://livewp.site/html/timber/js/jquery.prettyPhoto.js " type="text/javascript " charset="utf-8 "></script>
-    <script src="https://livewp.site/html/timber/js/bootstrap.min.js "></script>
-    <script src="https://livewp.site/html/timber/js/jquery.slicknav.js "></script>
-    <script>
-        $(document).ready(function() {
-            $(".bhide ").click(function() {
-                $(".hideObj ").slideDown();
-                $(this).hide(); //.attr()
-                return false;
-            });
-            $(".bhide2 ").click(function() {
-                $(".container.hideObj2 ").slideDown();
-                $(this).hide(); // .attr()
-                return false;
-            });
-
-            $('.heart').mouseover(function() {
-                $(this).find('i').removeClass('fa-heart-o').addClass('fa-heart');
-            }).mouseout(function() {
-                $(this).find('i').removeClass('fa-heart').addClass('fa-heart-o');
-            });
-
-            function sdf_FTS(_number, _decimal, _separator) {
-                var decimal = (typeof(_decimal) != 'undefined') ? _decimal : 2;
-                var separator = (typeof(_separator) != 'undefined') ? _separator : '';
-                var r = parseFloat(_number)
-                var exp10 = Math.pow(10, decimal);
-                r = Math.round(r * exp10) / exp10;
-                rr = Number(r).toFixed(decimal).toString().split('.');
-                b = rr[0].replace(/(\d{1,3}(?=(\d{3})+(?:\.\d|\b)))/g, "\$1 " + separator);
-                r = (rr[1] ? b + '.' + rr[1] : b);
-
-                return r;
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+            jQuery('#menu').slicknav({
+                brand: '<a href="index.html#"><img src="./img/logo.png" alt="logo" class="logo-img"  style="height: 50px; margin-top: -7px"/> </a>',
             }
-
-            setTimeout(function() {
-                $('#counter').text('0');
-                $('#counter1').text('0');
-                $('#counter2').text('0');
-                setInterval(function() {
-
-                    var curval = parseInt($('#counter').text());
-                    var curval1 = parseInt($('#counter1').text().replace(' ', ''));
-                    var curval2 = parseInt($('#counter2').text());
-                    if (curval <= 707) {
-                        $('#counter').text(curval + 1);
-                    }
-                    if (curval1 <= 12280) {
-                        $('#counter1').text(sdf_FTS((curval1 + 20), 0, ' '));
-                    }
-                    if (curval2 <= 245) {
-                        $('#counter2').text(curval2 + 1);
-                    }
-                }, 2);
-
-            }, 500);
-        });
-    </script>
-    <script type="text/javascript ">
-        jQuery(document).ready(function() {
-            jQuery('#menu').slicknav();
-
-        });
-    </script>
-
-    <script type="text/javascript ">
-        $(document).ready(function() {
-
-            var $menu = $("#menuF ");
-
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 100 && $menu.hasClass("default ")) {
-                    $menu.fadeOut('fast', function() {
-                        $(this).removeClass("default ")
-                            .addClass("fixed transbg ")
-                            .fadeIn('fast');
-                    });
-                } else if ($(this).scrollTop() <= 100 && $menu.hasClass("fixed ")) {
-                    $menu.fadeOut('fast', function() {
-                        $(this).removeClass("fixed transbg ")
-                            .addClass("default ")
-                            .fadeIn('fast');
-                    });
-                }
-            });
-        });
-        //jQuery
-    </script>
-    <script>
-        /*menu*/
-        function calculateScroll() {
-            var contentTop = [];
-            var contentBottom = [];
-            var winTop = $(window).scrollTop();
-            var rangeTop = 200;
-            var rangeBottom = 500;
-            $('.navmenu').find('a').each(function() {
-                contentTop.push($($(this).attr('href')).offset().top);
-                contentBottom.push($($(this).attr('href')).offset().top + $($(this).attr('href')).height());
-            })
-            $.each(contentTop, function(i) {
-                if (winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom) {
-                    $('.navmenu li')
-                        .removeClass('active')
-                        .eq(i).addClass('active');
-                }
-            })
-        };
-
-        $(document).ready(function() {
-            calculateScroll();
-            $(window).scroll(function(event) {
-                calculateScroll();
-            });
-            $('.navmenu ul li a').click(function() {
-                $('html, body').animate({
-                    scrollTop: $(this.hash).offset().top - 80
-                }, 800);
-                return false;
-            });
+            );
+    
         });
     </script>
     <script>
-        jQuery(document).ready(function() {
-            jQuery(".pretty a[rel^='prettyPhoto' ] ").prettyPhoto({
-                animation_speed: 'normal',
-                theme: 'light_square',
-                slideshow: 3000,
-                autoplay_slideshow: true,
-                social_tools: ''
-            });
+		/*menu*/
+		function calculateScroll() {
+			var contentTop      =   [];
+			var contentBottom   =   [];
+			var winTop      =   $(window).scrollTop();
+			var rangeTop    =   200;
+			var rangeBottom =   500;
+			$('.navmenu').find('a').each(function(){
+				contentTop.push( $( this).offset().top );
+				contentBottom.push( $( this ).offset().top + $( this ).height() );
+			})
+			$.each( contentTop, function(i){
+				if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
+					$('.navmenu li')
+					.removeClass('active')
+					.eq(i).addClass('active');				
+				}
+			})
+		};
 
-        });
-    </script>
+		$(document).ready(function(){
+			calculateScroll();
+			$(window).scroll(function(event) {
+				calculateScroll();
+			});
+			$('.navmenu ul li a').click(function() {  
+				$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
+				return false;
+			});
+
+         
+
+            
+		});
+	</script>	
 </body>
 
 </html>
